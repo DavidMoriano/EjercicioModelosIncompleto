@@ -1,53 +1,28 @@
-public class Main{
+public class Main {
     public static void main(String[] args) {
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model1 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model1.toString());
-    System.out.println("\n");
+        ClassMethod method1 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method1.toString());
         
-    System.out.println("================");
-    System.out.println("Modelo 7-S de McKensey");
-    System.out.println("================");  
-    McKenseyModel model2 = new McKenseyModel("Estrategia, Estructura, Sistemas, Valores compartidos, Estilo, Personal, y Competencias", 1980, "McKinsey & Company");
-    System.out.println(model2.toString());
-    System.out.println("\n");
+        ClassMethod method2 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method2.toString());
 
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model3 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model3.toString());
-    System.out.println("\n");
+        ClassMethod method3 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method3.toString());
 
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model4 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model4.toString());
-    System.out.println("\n");
+        ClassMethod method4 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method4.toString());
+        
+        ClassMethod method5 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method5.toString());
 
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model5 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model5.toString());
-    System.out.println("\n");
+        ClassMethod method6 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method6.toString());
 
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model6 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model6.toString());
-    System.out.println("\n");
-
-    System.out.println("================");
-    System.out.println("MODELO DE LEWIN");
-    System.out.println("================");
-    LewinsModel model7 = new LewinsModel("Descongelar, Cambiar, Congelar", 1950, "Gilbert N. Lewis");
-    System.out.println(model7.toString());
-    System.out.println("\n");
+        ClassMethod method7 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method7.toString());
+        
+        ClassMethod method8 = new ClassMethod("", "", "",  , "", "", "", "");
+        System.out.println(method8.toString());
 
 
     }
