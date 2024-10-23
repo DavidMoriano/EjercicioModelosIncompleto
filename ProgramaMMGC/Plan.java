@@ -7,7 +7,7 @@ public class Plan {
 
     @Override
     public String toString (){
-        String result = "" + this.phasesNames;
+        String result = " " + this.phasesNames + ".";
         return result;
     }
 }

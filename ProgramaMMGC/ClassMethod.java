@@ -21,12 +21,15 @@ public class ClassMethod {
 
     @Override
     public String toString (){
-        String result = "El método se llama " + this.name + " el cual es " 
-            + this.typeMethod + " " + this.state + " que fue creado en " 
+        String result = "El metodo se llama " 
+            + this.name + " el cual es " 
+            + this.typeMethod + " " 
+            + this.state + " que fue creado en " 
             + this.createdDate + " por " 
             + this.authorName + ".\nEste presenta los siguientes objetivos: " 
-            + this.objectives + " siendo sus características principales: " 
-            + this.description + ".\nTiene la siguiente organizacion" + this.planPhases;
+            + this.objectives + " siendo sus caracteristicas principales: " 
+            + this.description + ".\nTiene la siguiente organizacion" 
+            + this.planPhases;
         return result;
     }
 
