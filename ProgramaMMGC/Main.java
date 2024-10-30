@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("\n");
+        System.out.println("========================================================================================================================================");
 
     // Modelo de Lewin
     Plan plan1 = new Plan("Descongelar, Cambiar, Volver a congelar");
@@ -17,6 +18,7 @@ public class Main {
     );
     System.out.println(method1.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Modelo 7-S de McKensey
     Plan plan2 = new Plan("Estrategia, Estructura, Sistemas, Valores compartidos, Estilo, Personal, Habilidades");
@@ -33,6 +35,7 @@ public class Main {
     );
     System.out.println(method2.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Teoria de cambio de Kotter
     Plan plan3 = new Plan("Crear urgencia, Formar coaliciones, Crear vision, Comunicar vision, Empoderar accion, Crear victorias, Consolidar, Institucionalizar");
@@ -49,6 +52,7 @@ public class Main {
     );
     System.out.println(method3.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Modelo ADKAR
     Plan plan4 = new Plan("Conciencia, Deseo, Conocimiento, Habilidad, Refuerzo");
@@ -65,6 +69,7 @@ public class Main {
     );
     System.out.println(method4.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Teoria del empujon (Nudge Theory)
     Plan plan5 = new Plan("Definir opciones, Modificar el entorno, Influenciar decisiones");
@@ -81,6 +86,7 @@ public class Main {
     );
     System.out.println(method5.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Transicion de puentes
     Plan plan6 = new Plan("Terminar, Zona neutral, Nuevo comienzo");
@@ -97,6 +103,7 @@ public class Main {
     );
     System.out.println(method6.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // Cambio de Kübler-Ross
     Plan plan7 = new Plan("Negacion, Ira, Negociacion, Depresion, Aceptacion");
@@ -113,6 +120,7 @@ public class Main {
     );
     System.out.println(method7.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     // La metodologia Satir de gestion
     Plan plan8 = new Plan("Status quo, Resistencia, Caos, Nueva integracion, Practica");
@@ -130,6 +138,7 @@ public class Main {
     
     System.out.println(method8.toString());
     System.out.println("\n");
+    System.out.println("========================================================================================================================================");
 
     }
-}
+}           
